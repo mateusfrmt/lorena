@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para Lorena 💙</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(#ffe0f0, #cceeff);
+      color: #333;
+      text-align: center;
+    }
+    header {
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(10px);
+    }
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3em;
+      color: #d6336c;
+    }
+    p.quote {
+      font-size: 1.4em;
+      margin: 1rem auto;
+      max-width: 600px;
+      font-style: italic;
+    }
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+      margin: 2rem;
+    }
+    .gallery img {
+      width: 300px;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .buttons {
+      margin-top: 2rem;
+    }
+    .buttons a {
+      text-decoration: none;
+      background-color: #6c5ce7;
+      color: white;
+      padding: 0.8rem 1.6rem;
+      border-radius: 8px;
+      font-weight: bold;
+      margin: 0 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transition: background-color 0.3s;
+    }
+    .buttons a:hover {
+      background-color: #341f97;
+    }
+    .decor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      background-image: url('https://i.imgur.com/5zI6vUt.png'); /* borboletas */
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      opacity: 0.1;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body>
+  <div class="decor"></div>
+  <header>
+    <h1>Para Lorena 💐</h1>
+    <p class="quote">"Tem dias comuns, e tem dias extraordinários... os que eu passo com você."</p>
+  </header>
+  <section class="gallery">
+    <img src="imagem1.jpg" alt="Foto 1" />
+    <img src="imagem2.jpg" alt="Foto 2" />
+  </section>
+  <div class="buttons">
+    <a href="#">Te amo ❤️</a>
+    <a href="#">Estou com saudade 💭</a>
+    <a href="#">Quero te ver logo 🌹</a>
+  </div>
+</body>
+</html>
